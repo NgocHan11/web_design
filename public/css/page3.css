@@ -1,0 +1,27 @@
+.wrapper-choose-gift {
+  width: 100%;
+  height: 100%;
+}
+
+.wrapper-choose-gift .title{
+  font-size: 25px;
+  color: #fff;
+  text-align: center;
+  vertical-align: middle;
+}
+
+html, body {
+  width: 100%;
+	height: 100%;
+	position: relative;
+	overflow: hidden;
+	font-family: 'Ubuntu', sans-serif;
+	background: #ba0001; 
+	background: -moz-radial-gradient(center, ellipse cover,  #ba0001 0%, #630505 100%); 
+	background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%,#ba0001), color-stop(100%,#630505)); 
+	background: -webkit-radial-gradient(center, ellipse cover,  #ba0001 0%,#630505 100%);
+	background: -o-radial-gradient(center, ellipse cover,  #ba0001 0%,#630505 100%);
+	background: -ms-radial-gradient(center, ellipse cover,  #ba0001 0%,#630505 100%); 
+	background: radial-gradient(ellipse at center,  #ba0001 0%,#630505 100%); 
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ba0001', endColorstr='#630505',GradientType=1 );
+}
